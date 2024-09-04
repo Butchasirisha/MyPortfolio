@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colour.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="captcha-container">
+        <h1 id="human-verify">Verification</h1>
+        <p>Please verify that you are human to access the page.</p>
+        <div class="captcha-box">
+            <label for="captcha">What is 2+3?</label>
+            <input type="text" name="captcha" id="captcha" required>
+        </div>
+        <button onclick="verifyCaptcha()">Verify</button>
+        <p id="message"></p>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
